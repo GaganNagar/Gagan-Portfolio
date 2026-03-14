@@ -16,7 +16,7 @@ function Contact() {
       'uzgDE3a2W5AceO4Hc'   // EmailJS Dashboard se copy karein
     )
     .then((result) => {
-        alert("Success! Message chala gaya.");
+        alert("Success!.");
         e.target.reset();
     }, (error) => {
         // 3. Agar abhi bhi error aaye, toh error.text ko alert karein
