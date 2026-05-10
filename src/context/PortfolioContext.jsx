@@ -50,12 +50,12 @@ export const PortfolioProvider = ({ children }) => {
   },
   {
     id: 3,
-    title: "AI Career Assistant (In progress)",
+    title: "InterviewAI",
     desc: "An AI-powered assistant providing personalized career guidance through REST API integration and dynamic state handling in React.",
     image: "/aiCareer.png",
     tech: ["GenAi","React.js", "REST API", "JavaScript", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
-    githubLink: "https://github.com/GaganNagar", // Update with specific link if available
-    liveLink: "#"
+    githubLink: "https://github.com/GaganNagar/InterviewAi", // Update with specific link if available
+    liveLink: "https://careerway-ai.vercel.app/"
   },
   {
     id: 4,

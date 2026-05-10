@@ -7,8 +7,8 @@ const experiences = [
     duration: "July 2025 – August 2025",
     location: "Remote",
     description: [
-      "Developed 3+ responsive web pages using HTML5 and CSS3 ensuring cross-device compatibility.",
-      "Implemented reusable layout components following modern UI/UX and responsive design principles.",
+      "Developed responsive web pages using HTML5, CSS3, and JavaScript while ensuring cross-browser compatibility.",
+      "Built reusable frontend UI components following responsive design principles and maintainable code practices.",
       "Optimized UI rendering for better performance across different devices."
     ]
   },
@@ -18,8 +18,8 @@ const experiences = [
     duration: "January 2025 – August 2025",
     location: "Indore, India",
     description: [
-      "Built 3+ React-based web applications with authentication workflows and REST API integration.",
-      "Developed dynamic UI components using React Hooks with structured component architecture.",
+      "Built end-to-end MERN stack applications with REST API integration and responsive UI development.",
+      "Gained practical experience in JWT authentication, CRUD operations, React Hooks, Context API, and Tailwind CSS.",
       "Integrated backend services with frontend using modern JavaScript (ES6+)."
     ]
   }
@@ -32,11 +32,11 @@ function Experience() {
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-800 dark:text-gray-100">
           Work Experience
         </h2>
-        
+
         <div className="max-w-4xl mx-auto space-y-8">
           {experiences.map((exp, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg shadow-md border-l-4 border-violet-600 dark:border-neon-400 transform hover:scale-[1.02] transition-transform duration-300"
               data-aos="fade-up"
             >
