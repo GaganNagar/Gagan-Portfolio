@@ -1,6 +1,6 @@
 import React from 'react';
 // PDF file ko import karein 
-import resumePdf from '../assets/GaganNagar_Resume.pdf'; 
+import resumePdf from '../assets/Gagan_Resume.pdf'; 
 
 function Resume() {
   // Yahan se 'const resumePdf = "#";' wali line hata di gayi hai
@@ -27,7 +27,7 @@ function Resume() {
             {/* Download Button */}
             <a 
               href={resumePdf} 
-              download="Gagan_Nagar_Resume.pdf"
+              download="Gagan_Resume.pdf"
               className="btn-secondary w-full sm:w-auto justify-center"
             >
               <i className="fas fa-download mr-2"></i> Download PDF
