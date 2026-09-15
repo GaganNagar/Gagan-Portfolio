@@ -36,8 +36,7 @@ export const PortfolioProvider = ({ children }) => {
     desc: "A full-stack role-based management dashboard with secure authentication for Admin and Employee roles, featuring task assignment and real-time tracking.",
     image: "/ems.png",
     tech: ["React.js", "Context API", "Tailwind CSS", "LocalStorage"],
-    githubLink: "https://github.com/GaganNagar/employee-management-system",
-    liveLink: "#"
+    githubLink: "https://github.com/GaganNagar/employee-management-system"
   },
   {
     id: 2,

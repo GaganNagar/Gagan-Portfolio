@@ -51,10 +51,14 @@ function Projects() {
                 </p>
 
                 {/* Links 👇 mt-auto se ye hamesha bottom mein rahega */}
-                <div className="mt-auto flex justify-between items-center pt-4 border-t border-gray-100 dark:border-gray-600">
-                  <a href={project.liveLink} target="_blank" rel="noreferrer" className="btn-primary text-xs">
-                    Live Demo
-                  </a>
+                {project.liveLink && (
+                  <div className="mt-auto flex justify-between items-center pt-4 border-t border-gray-100 dark:border-gray-600">
+                    <a href={project.liveLink} target="_blank" rel="noreferrer" className="btn-primary text-xs">
+                      Live Demo
+                    </a>
+                  </div>
+                )}
+
                   <a href={project.githubLink} target="_blank" rel="noreferrer" className="text-gray-500 hover:text-gray-800 dark:hover:text-white transition-colors">
                     <i className="fab fa-github text-2xl"></i>
                   </a>
