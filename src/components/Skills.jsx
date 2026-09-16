@@ -4,10 +4,11 @@ function Skills() {
   const [activeTab, setActiveTab] = useState('technical');
 
   const techSkills = [
+    { name: "React.js", icon: "devicon-react-plain colored" },
+    { name: "JavaScript", icon: "devicon-javascript-plain colored" },
+    { name: "Next.js", icon: "devicon-nextjs-plain colored" },
     { name: "HTML5", icon: "devicon-html5-plain colored" },
     { name: "CSS3", icon: "devicon-css3-plain colored" },
-    { name: "JavaScript", icon: "devicon-javascript-plain colored" },
-    { name: "React", icon: "devicon-react-plain colored" },
     { name: "Tailwind CSS", icon: "devicon-tailwindcss-plain colored" },
 
     // / Backend Skills (Added from your request)

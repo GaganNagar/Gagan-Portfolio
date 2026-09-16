@@ -18,9 +18,9 @@ const experiences = [
     duration: "January 2025 – August 2025",
     location: "Indore, India",
     description: [
-      "Built end-to-end MERN stack applications with REST API integration and responsive UI development.",
-      "Gained practical experience in JWT authentication, CRUD operations, React Hooks, Context API, and Tailwind CSS.",
-      "Integrated backend services with frontend using modern JavaScript (ES6+)."
+      "Built end-to-end MERN stack features across 3 internal projects, developing MongoDB schemas, Express.js REST APIs, and React.js interfaces.",
+      "Implemented JWT authentication and MongoDB CRUD operations, connecting React forms with Express APIs and persistent database workflows.",
+      "Collaborated through Git branching, code reviews, and sprint-based development, incorporating senior developer feedback into application delivery."
     ]
   }
 ];

@@ -40,7 +40,7 @@ function Hero() {
         </div>
         <div className="text-white text-shadow-lg text-left md:text-left">
           <h1 className="text-5xl md:text-7xl font-bold mb-4 animate-fade-in-down">Gagan Nagar</h1>
-          <p className="text-2xl md:text-2xl font-bold mb-6">Software Engineer | Frontend Developer</p>
+          <p className="text-2xl md:text-2xl font-bold mb-6">Software Engineer | Full Stack Developer</p>
           <p className="text-lg md:text-xl font-light h-8">
             <span ref={typedTarget}></span>
           </p>

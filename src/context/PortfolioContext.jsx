@@ -4,17 +4,20 @@ export const PortfolioContext = createContext();
 
 export const PortfolioProvider = ({ children }) => {
   // --- Dark Mode Logic ---
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    if (typeof window === 'undefined') return false;
+
+    return localStorage.theme === 'dark' ||
+      (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  });
 
   useEffect(() => {
-    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    if (isDarkMode) {
         document.documentElement.classList.add('dark');
-        setIsDarkMode(true);
     } else {
         document.documentElement.classList.remove('dark');
-        setIsDarkMode(false);
     }
-  }, []);
+  }, [isDarkMode]);
 
   const toggleTheme = () => {
     if (isDarkMode) {
@@ -33,7 +36,7 @@ export const PortfolioProvider = ({ children }) => {
     {
     id: 1,
     title: "InterviewAI",
-    desc: "An AI-powered assistant providing personalized career guidance through REST API integration and dynamic state handling in React.",
+    desc: "An AI-powered interview platform delivering personalized interview preparation, ATS resume insights, skill-gap analysis, and targeted preparation roadmaps.",
     image: "/aiCareer.png",
     tech: ["GenAi","React.js", "REST API", "JavaScript", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
     githubLink: "https://github.com/GaganNagar/InterviewAi", // Update with specific link if available
