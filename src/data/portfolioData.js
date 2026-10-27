@@ -3,7 +3,7 @@
  * Single Source of Truth for Personal, Career, and Project Information.
  */
 
-import resumePdf from '../assets/GaganNagar_resume.pdf';
+import resumePdf from '../assets/Gagan_Resume.pdf';
 
 export const personalInfo = {
   name: "Gagan Nagar",
@@ -212,4 +212,3 @@ export const navLinks = [
   { num: "05", name: "About", href: "#about" },
   { num: "06", name: "Contact", href: "#contact" }
 ];
-
