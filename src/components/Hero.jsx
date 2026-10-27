@@ -49,7 +49,7 @@ function Hero() {
             {/* Left Column: Headlines & CTAs */}
             <div className="lg:col-span-8 space-y-6" data-aos="fade-right">
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-zinc-900 dark:text-zinc-50 leading-[1.1]">
-                Frontend developer shipping interfaces that{' '}
+                Full Stack developer shipping interfaces that{' '}
                 <span className="bg-gradient-to-r from-violet-600 via-purple-600 to-indigo-600 dark:from-violet-400 dark:via-purple-300 dark:to-indigo-300 bg-clip-text text-transparent">
                   feel instant.
                 </span>
