@@ -35,7 +35,7 @@ function About() {
             <div className="h-px w-12 bg-violet-600/30 dark:bg-violet-400/30"></div>
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-zinc-900 dark:text-zinc-50 leading-tight">
-            I build product interfaces that feel instant and stay that way.
+            Building modern, scalable, AI-powered web applications.
           </h2>
         </div>
 
@@ -43,10 +43,10 @@ function About() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 items-start mb-16" data-aos="fade-up">
           <div className="md:col-span-8 space-y-5 text-base sm:text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">
             <p>
-              I am a <span className="font-semibold text-zinc-900 dark:text-zinc-100">Full Stack Developer</span> specializing in <span className="font-semibold text-zinc-900 dark:text-zinc-100">React.js and the MERN stack</span>. I build modern, AI-powered web applications using JavaScript, Node.js, Express.js, and MongoDB, with a relentless focus on clean architecture, seamless functionality, and intuitive user experiences.
+              I&apos;m Gagan Nagar, a <span className="font-semibold text-zinc-900 dark:text-zinc-100">Full Stack Developer</span> specializing in building modern, scalable, and AI-powered web applications.
             </p>
             <p>
-              My development philosophy is centered around craft: speed is a feature, accessibility is not optional, and the best code is the code the next engineer can read and build upon. Whether architecting database schemas or polishing micro-interactions, I treat every project as a product that must deliver tangible value.
+              I enjoy turning ideas into functional products, focusing on clean architecture, seamless functionality, and intuitive user experiences. I&apos;ve worked on projects like InterviewAI and RepairOps, where I focus on creating practical solutions with a product-oriented mindset. My approach is simple: write clean code, think beyond individual features, and treat every project as a complete product. I also explore AI-assisted development to improve efficiency and find smarter ways to build.
             </p>
           </div>
 

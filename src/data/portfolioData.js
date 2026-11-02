@@ -8,18 +8,19 @@ import resumePdf from '../assets/Gagan_Resume.pdf';
 export const personalInfo = {
   name: "Gagan Nagar",
   role: "Software Engineer | Full Stack Developer",
-  status: "Available for opportunities",
+  status: "Open to new opportunities",
   location: "Indore, India",
-  headline: "Full Stack Developer shipping interfaces that feel instant.",
-  subhead: "Specializing in React.js and the MERN stack. Building modern, AI-powered web applications with clean architecture and intuitive user experiences.",
+  headline: "Full Stack Developer building smarter solutions",
+  subhead:
+    "Full Stack Developer specializing in React.js and the MERN stack, with a focus on clean architecture, reliable functionality, and intuitive user experiences.",
   typedStrings: [
-    "I craft engaging digital experiences.",
-    "Transforming ideas into robust web solutions.",
-    "Specializing in React.js & MERN Stack.",
-    "Passionate about clean code and AI tools.",
-    "Let's build something amazing together."
+    "I build modern, scalable web applications.",
+    "Turning ideas into practical digital products.",
+    "Full Stack Developer specializing in React.js and MERN.",
+    "Creating intuitive experiences with clean architecture.",
+    "Exploring AI to build smarter products.",
   ],
-  bio: `I am a Full Stack Developer specializing in React.js and the MERN stack. I build modern, AI-powered web applications using JavaScript, Node.js, Express.js, and MongoDB, with a relentless focus on clean architecture, seamless functionality, and intuitive user experiences. I enjoy turning complex ideas into high-performance web solutions and exploring AI-driven technologies to build smarter applications.`,
+  bio: `I'm Gagan Nagar, a Full Stack Developer specializing in modern, scalable, and AI-powered web applications. I enjoy turning ideas into functional products, with a focus on clean architecture, seamless functionality, and intuitive user experiences. Through projects like InterviewAI and RepairOps, I bring a practical, product-oriented mindset to building reliable solutions. I also explore AI-assisted development to work more efficiently and find smarter ways to build.`,
   resumePdf: resumePdf,
   resumeFileName: "GaganNagar_Resume.pdf",
 };
@@ -42,9 +43,9 @@ export const contactDetails = {
 };
 
 export const metricsData = [
-  { value: "04+", label: "Products Built", detail: "Full Stack & AI Web Apps" },
+  { value: "03+", label: "Products Built", detail: "Full Stack & AI Web Apps" },
   { value: "MERN", label: "Core Specialization", detail: "React, Node, Express, Mongo" },
-  { value: "08mo", label: "Production Experience", detail: "Frontend & Full Stack Roles" },
+  { value: "06mo", label: "Production Experience", detail: "Frontend & Full Stack Roles" },
   { value: "100%", label: "Clean Code & Speed", detail: "Responsive & Performance Focused" },
 ];
 
@@ -76,7 +77,18 @@ export const projectsData = [
     liveLink: "https://careerway-ai.vercel.app/"
   },
   {
-    id: 2,
+  id: 2,
+  title: "RepairOps",
+  category: "Backend API",
+  metric: "12+ REST API Endpoints",
+  desc: "A backend-focused repair management system with APIs for repair requests, technician assignments, estimates, and status tracking, secured with JWT and role-based authorization.",
+  image: "/repairOps.png",
+  tech: ["Node.js", "Express.js", "MongoDB", "JWT", "REST APIs"],
+  githubLink: "https://github.com/GaganNagar/RepairOps",
+  liveLink: null
+},
+  {
+    id: 3,
     title: "Employee Management System",
     category: "Enterprise Dashboard",
     metric: "Role-Based Auth (Admin/Emp)",
@@ -87,8 +99,8 @@ export const projectsData = [
     liveLink: null
   },
   {
-    id: 3,
-    title: "Personal Portfolio Website",
+    id: 4,
+    title: "Portfolio Website",
     category: "Frontend & UX",
     metric: "Framer-Inspired Engineering UI",
     desc: "A modern, high-performance portfolio built to showcase technical skills and projects with dark mode support, smooth interactions, and metrics-driven design.",
@@ -119,9 +131,8 @@ export const experiencesData = [
     location: "Indore, India",
     badge: "Full Stack Training",
     description: [
-      "Built end-to-end MERN stack features across 3 internal projects, developing MongoDB schemas, Express.js REST APIs, and React.js interfaces.",
-      "Implemented JWT authentication and MongoDB CRUD operations, connecting React forms with Express APIs and persistent database workflows.",
-      "Collaborated through Git branching, code reviews, and sprint-based development, incorporating senior developer feedback into application delivery."
+      "Worked on MERN stack applications, developing React.js interfaces, Express.js REST APIs, and MongoDB schemas for application features.",
+      "Implemented JWT authentication and CRUD operations, integrating React forms with Express APIs and MongoDB for persistent data management."
     ]
   }
 ];

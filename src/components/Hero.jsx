@@ -49,9 +49,9 @@ function Hero() {
             {/* Left Column: Headlines & CTAs */}
             <div className="lg:col-span-8 space-y-6" data-aos="fade-right">
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-zinc-900 dark:text-zinc-50 leading-[1.1]">
-                Full Stack developer shipping interfaces that{' '}
+                Full Stack Developer turning ideas into {' '}
                 <span className="bg-gradient-to-r from-violet-600 via-purple-600 to-indigo-600 dark:from-violet-400 dark:via-purple-300 dark:to-indigo-300 bg-clip-text text-transparent">
-                  feel instant.
+                  products
                 </span>
               </h1>
 
@@ -101,7 +101,7 @@ function Hero() {
                 {/* Glow ring */}
                 <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-violet-600/40 to-indigo-600/40 blur-xl opacity-60 group-hover:opacity-100 transition duration-500"></div>
 
-                <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-3xl overflow-hidden bg-zinc-100 dark:bg-zinc-900 border-2 border-zinc-200 dark:border-zinc-800 shadow-2xl">
+                <div className="relative w-60 h-60 sm:w-68 sm:h-68 md:w-76 md:h-76 rounded-3xl overflow-hidden bg-zinc-100 dark:bg-zinc-900 border-2 border-zinc-200 dark:border-zinc-800 shadow-2xl">
                   <img
                     src={profileImg}
                     alt={personalInfo.name}
